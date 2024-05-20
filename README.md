@@ -1,34 +1,47 @@
 # HindiNumerals
 
-TODO: Delete this and the text below, and describe your gem
+HindiNumerals is a Ruby gem that provides functionality to convert standard numbers to Hindi numerals.
+#Description
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hindi_numerals`. To experiment with that code, run `bin/console` for an interactive prompt.
+Hindi numerals, also known as Indian numerals, are the symbols used to represent numbers in the Hindi language. These numerals are commonly used in the Indian subcontinent and are distinct from the Arabic numerals used in Western countries. HindiNumerals gem aims to facilitate the conversion of Arabic numbers to their Hindi equivalents, allowing developers to seamlessly work with Hindi numerals in their Ruby applications.
+
+
+
+
+**## Features**
+Convert Arabic numbers to Hindi numerals.
+Support for both integers and floating-point numbers.
+Lightweight and easy to use.
+Compatible with Ruby versions 2.5 and above.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+    $ bundle add hindi_numerals
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+    $ gem install hindi_numerals
 
 ## Usage
 
-TODO: Write usage instructions here
+To convert numbers to Hindi numerals, simply call the convert method provided by the HindiNumerals module:
+
+require 'hindi_numerals'
+
+HindiNumerals.convert(123)        # => "१२३"
+HindiNumerals.convert(4567)       # => "४५६७"
+HindiNumerals.convert(9876543210) # => "९८७६५४३२१०"
 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
+ 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hindi_numerals. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/hindi_numerals/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/kapildevpal/hindi_numerals. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/kapildevpal/hindi_numerals/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
