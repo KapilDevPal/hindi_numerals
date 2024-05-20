@@ -30,10 +30,11 @@ To convert numbers to Hindi numerals, simply call the convert method provided by
 
 require 'hindi_numerals'
 
-$ HindiNumerals.convert(123)        # => "१२३"
-$ HindiNumerals.convert(4567)       # => "४५६७"
-$ HindiNumerals.convert(9876543210) # => "९८७६५४३२१०"
-
+```ruby
+HindiNumerals.convert(123)        # => "१२३"
+HindiNumerals.convert(4567)       # => "४५६७"
+HindiNumerals.convert(9876543210) # => "९८७६५४३२१०"
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
