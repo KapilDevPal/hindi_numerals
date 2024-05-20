@@ -1,7 +1,7 @@
 # HindiNumerals
 
 HindiNumerals is a Ruby gem that provides functionality to convert standard numbers to Hindi numerals.
-#Description
+# Description
 
 Hindi numerals, also known as Indian numerals, are the symbols used to represent numbers in the Hindi language. These numerals are commonly used in the Indian subcontinent and are distinct from the Arabic numerals used in Western countries. HindiNumerals gem aims to facilitate the conversion of Arabic numbers to their Hindi equivalents, allowing developers to seamlessly work with Hindi numerals in their Ruby applications.
 
@@ -30,9 +30,9 @@ To convert numbers to Hindi numerals, simply call the convert method provided by
 
 require 'hindi_numerals'
 
-HindiNumerals.convert(123)        # => "१२३"
-HindiNumerals.convert(4567)       # => "४५६७"
-HindiNumerals.convert(9876543210) # => "९८७६५४३२१०"
+$ HindiNumerals.convert(123)        # => "१२३"
+$ HindiNumerals.convert(4567)       # => "४५६७"
+$ HindiNumerals.convert(9876543210) # => "९८७६५४३२१०"
 
 ## Development
 
